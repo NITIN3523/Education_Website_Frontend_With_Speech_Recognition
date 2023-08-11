@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:rgb(17 24 39);
+}
+
+.homecircleactive{
+  color:azure
+}
+
+.leftlogin{
+  background-image: url(https://www.123freevectors.com/wp-content/uploads/new/123fv-images/29772-abstract-black-pink-background-design.jpg);
+  background-position: 60%;
+}
+
+.leftcontact{
+  background-image: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/29680-dark-color-background-template.jpg);
+  background-position: 60%;
+}
+.navburger{
+  display: none;
+}
+@media (max-width : 670px) {
+  .navburger{
+    display:block;
+  }
+
+  .navfeatures{
+    display: none;
+  }
+
+  .navinnercontent{
+    justify-content: space-between;
+    flex-direction: column;
+  } 
+
+  .navimgbur{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-bottom: solid white;
+    border-bottom-width: 2px;
+    width: 100%;
+  } 
+}
