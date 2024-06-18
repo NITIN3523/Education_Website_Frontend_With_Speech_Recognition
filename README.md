@@ -1,70 +1,38 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Education_Website_Frontend_With_Speech_Recognition
 
-## Available Scripts
+This website is a single-page application (SPA), meaning it functions as a single interface and dynamically updates content without full page reloads. This approach enhances user experience.
 
-In the project directory, you can run:
+The website boasts responsive design, ensuring optimal display and interaction across various devices (desktops, mobiles, tablets).
 
-### `npm start`
+Speech recognition capabilities are powered by the Annyang library, granting users voice control over website features.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The ReactJS framework serves as the foundation for the website's structure and organization.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Tailwind CSS, a utility-first CSS framework, provides the website's styling.
 
-### `npm test`
+The website adheres to progressive enhancement principles. It delivers a functional user experience on all browsers. Users on older browsers will not be hindered, although voice control features might be unavailable.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+While compatibility with Microsoft Edge is currently under evaluation, the website functions flawlessly on Google Chrome and other major browsers.
 
-### `npm run build`
+# Link
+https://niteducation.netlify.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Commands
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Command |  Description  |
+|:-----|:--------:|
+| `scroll up/down`   | Scroll up and down in any page |
+| `open home/about/courses/contact/login`   | Open particular page you want to open |
+| `slide imageright/imageleft`   | In home page to slide image right and left at top of home page |
+| `hide all answer`   | In home page on FAQ section to hide all answer at one time  |
+| `all answer`   | In home page on FAQ section to see all answer at one time |
+| `show answer 1/2/3/4/5/6`   | In home page on FAQ section to see only one answer at one time |
+| `hide answer 1/2/3/4/5/6`   | In home page on FAQ section to hide only one answer at one time |
+| `enter email (your email)”`   | To enter email in email input field |
+| `enter password (your password)`   | To enter password at password input field |
+| `enter name (your name)`   | To enter name at name input field |
+| `enter phone (your name)`   | To enter phone at phone number input field |
+| `enter text (your name)`   | To enter text at textarea input field |
+| `search (which course you want to search)`   | In course page to search course |
+| `click rememberme/login/signup`   | To click on particular button |
